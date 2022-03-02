@@ -1,0 +1,22 @@
+{
+  "name": "@jasongilbertuk/s3-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-gilbert-uk/s3-helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-gilbert-uk/s3-helper/issues"
+  },
+  "homepage": "https://github.com/jason-gilbert-uk/s3-helper#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1084.0"
+  }
+}
