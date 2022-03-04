@@ -109,7 +109,7 @@ async function readObjectFromS3(bucketName,fileName) {
     try {
         var result = await S3.getObject(params).promise();
         var messages = JSON.parse(result.Body.toString('utf-8'));
-        return message;
+        return messages;
 
     } catch (err) {
         console.log('error in s3-helper.readObjectFromS3 : ',err)
